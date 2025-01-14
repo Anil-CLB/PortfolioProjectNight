@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "EducationList";
+    Layout = "~/Views/Admin/Index.cshtml";
+}
+
+<h2 class="mb-4">Eğitim Hayatım Listem</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Başlık</th>
+        <th>Alt Başlık</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    <tr>
+        <th>1</th>
+        <th>KTO Karatay Üniversitesi</th>
+        <th>Bilgisayar Mühendisliği</th>
+        <td><a href="#" class="btn btn-danger">Sil</a></td>
+        <td><a href="#" class="btn btn-success">Güncelle</a></td>
+    </tr>
+
+    <tr>
+        <th>1</th>
+        <th>Marmara Üniversitesi</th>
+        <th>Bilgisayar Mühendisliği Master</th>
+        <td><a href="#" class="btn btn-danger">Sil</a></td>
+        <td><a href="#" class="btn btn-success">Güncelle</a></td>
+    </tr>
+</table>
+
+<td><a href="/Education/CreateEducation/" class="btn btn-info">Yeni Eğitim Bilgisi Girişi</a></td>
+
